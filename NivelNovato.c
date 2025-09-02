@@ -104,19 +104,19 @@ int main() {
     
     if(aream21 > aream22){
         printf("###ÁREA###\n");
-        printf("Carta 1- %s(%s): área de: %.2f km² \n", nomecid1, estado1, aream21);
-        printf("Carta 2- %s(%s): área de: %.2f km² \n", nomecid2, estado2, aream22);
+        printf("Carta 1- %s(%s): Área de: %.2f km² \n", nomecid1, estado1, aream21);
+        printf("Carta 2- %s(%s): Área de: %.2f km² \n", nomecid2, estado2, aream22);
         printf("Resultado: Carta 1- (%s) venceu! \n\n", nomecid1);
     }else{
         if(aream21 == aream22){
             printf("###ÁREA###\n");
-            printf("Carta 1- %s(%s): área de: %.2f km² \n", nomecid1, estado1, aream21);
-            printf("Carta 2- %s(%s): área de: %.2f km² \n", nomecid2, estado2, aream22);
+            printf("Carta 1- %s(%s): Área de: %.2f km² \n", nomecid1, estado1, aream21);
+            printf("Carta 2- %s(%s): Área de: %.2f km² \n", nomecid2, estado2, aream22);
             printf("Resultado: Carta 1- (%s) empatou com Carta 2- (%s) \n\n", nomecid1, nomecid2);
         }else{
             printf("###ÁREA###\n");
-            printf("Carta 1- %s(%s): área de: %.2f km² \n", nomecid1, estado1, aream21);
-            printf("Carta 2- %s(%s): área de: %.2f km² \n", nomecid2, estado2, aream22);
+            printf("Carta 1- %s(%s): Área de: %.2f km² \n", nomecid1, estado1, aream21);
+            printf("Carta 2- %s(%s): Área de: %.2f km² \n", nomecid2, estado2, aream22);
             printf("Resultado: Carta 2- (%s) venceu! \n\n", nomecid2);
         }    
     }
@@ -142,38 +142,38 @@ int main() {
         
     if(numpt1 > numpt2){
         printf("###PONTOS TURISTICOS###\n");
-        printf("Carta 1- %s(%s): número de pontos turísticos: %d pontos turísticos \n", nomecid1, estado1, numpt1);
-        printf("Carta 2- %s(%s): número de pontos turísticos: %d pontos turísticos \n", nomecid2, estado2, numpt2);
+        printf("Carta 1- %s(%s): Número de pontos turísticos: %d pontos turísticos \n", nomecid1, estado1, numpt1);
+        printf("Carta 2- %s(%s): Número de pontos turísticos: %d pontos turísticos \n", nomecid2, estado2, numpt2);
         printf("Resultado: Carta 1- (%s) venceu! \n\n", nomecid1);
     }else{
         if(numpt1 == numpt2){
             printf("###PONTOS TURISTICOS###\n");
-            printf("Carta 1- %s(%s): número de pontos turísticos: %d pontos turísticos \n", nomecid1, estado1, numpt1);
-            printf("Carta 2- %s(%s): número de pontos turísticos: %d pontos turísticos \n", nomecid2, estado2, numpt2);
+            printf("Carta 1- %s(%s): Número de pontos turísticos: %d pontos turísticos \n", nomecid1, estado1, numpt1);
+            printf("Carta 2- %s(%s): Número de pontos turísticos: %d pontos turísticos \n", nomecid2, estado2, numpt2);
             printf("Resultado: Carta 1- (%s) empatou com Carta 2- (%s) \n\n", nomecid1, nomecid2);
         }else{
             printf("###PONTOS TURISTICOS###\n");
-            printf("Carta 1- %s(%s): número de pontos turísticos: %d pontos turísticos \n", nomecid1, estado1, numpt1);
-            printf("Carta 2- %s(%s): número de pontos turísticos: %d pontos turísticos \n", nomecid2, estado2, numpt2);
+            printf("Carta 1- %s(%s): Número de pontos turísticos: %d pontos turísticos \n", nomecid1, estado1, numpt1);
+            printf("Carta 2- %s(%s): Número de pontos turísticos: %d pontos turísticos \n", nomecid2, estado2, numpt2);
             printf("Resultado: Carta 2- (%s) venceu! \n\n", nomecid2);        
          }
     }
     
     if(densPop1 < densPop2){
         printf("###DENSIDADE POPULACIONAL###\n");
-        printf("Carta 1- %s(%s): densidade populacional de: %.2f hab/km² \n", nomecid1, estado1, densPop1);
-        printf("Carta 2- %s(%s): densidade populacional de: %.2f hab/km² \n", nomecid2, estado2, densPop2);
+        printf("Carta 1- %s(%s): Densidade populacional de: %.2f hab/km² \n", nomecid1, estado1, densPop1);
+        printf("Carta 2- %s(%s): Densidade populacional de: %.2f hab/km² \n", nomecid2, estado2, densPop2);
         printf("Resultado: Carta 1- (%s) venceu! \n\n", nomecid1);
     }else{
         if(densPop1 == densPop2){
             printf("###DENSIDADE POPULACIONAL###\n");
-            printf("Carta 1- %s(%s): densidade populacional de: %.2f hab/km² \n", nomecid1, estado1, densPop1);
-            printf("Carta 2- %s(%s): densidade populacional de: %.2f hab/km² \n", nomecid2, estado2, densPop2);
+            printf("Carta 1- %s(%s): Densidade populacional de: %.2f hab/km² \n", nomecid1, estado1, densPop1);
+            printf("Carta 2- %s(%s): Densidade populacional de: %.2f hab/km² \n", nomecid2, estado2, densPop2);
             printf("Resultado: Carta 1- (%s) empatou com Carta 2- (%s) \n\n", nomecid1, nomecid2);
         }else{
             printf("###DENSIDADE POPULACIONAL###\n");
-            printf("Carta 1- %s(%s): densidade populacional de: %.2f hab/km² \n", nomecid1, estado1, densPop1);
-            printf("Carta 2- %s(%s): densidade populacional de: %.2f hab/km² \n", nomecid2, estado2, densPop2);
+            printf("Carta 1- %s(%s): Densidade populacional de: %.2f hab/km² \n", nomecid1, estado1, densPop1);
+            printf("Carta 2- %s(%s): Densidade populacional de: %.2f hab/km² \n", nomecid2, estado2, densPop2);
             printf("Resultado: Carta 2- (%s) venceu! \n\n", nomecid2);
         }
     }    

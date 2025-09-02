@@ -40,9 +40,9 @@ int main() {
         scanf(" %d", &numpt1);
     
         //Calculando a Densidade Polulacional da primeira Carta
-        densPop1 = populacao1 / aream21;
+        densPop1 = (float) populacao1 / aream21; //Conversão explícita da população para float 
         //Calculando o PIB per Capita da primeira Carta
-         pibPCap1 = pib1 / populacao1;
+         pibPCap1 = pib1 / (float) populacao1; //Conversão explícita da população para float
 
                     // Entrada de dados da segunda Carta.
                     printf("******CARTA 2****** \n");
@@ -76,8 +76,8 @@ int main() {
 
     /* Somando todos os atributos numéricos (população, área, PIB, número de pontos turísticos, 
     PIB per capita e o inverso da densidade populacional – quanto menor a densidade, maior o "poder")*/
-    superPoderCarta1 = (float) populacao1 + aream21 + pib1 + numpt1 + pibPCap1 + (1 / densPop1);
-    superPoderCarta2 = (float) populacao2 + aream22 + pib2 + numpt2 + pibPCap2 + (1 / densPop2);
+    superPoderCarta1 = (float) populacao1 + aream21 + pib1 + (float) numpt1 + pibPCap1 + (1 / densPop1);
+    superPoderCarta2 = (float) populacao2 + aream22 + pib2 + (float) numpt2 + pibPCap2 + (1 / densPop2);
          
    
     // Comparação de Cartas:
@@ -161,7 +161,7 @@ int main() {
     printf("*******RESULTADO DA CARTA VENCEDORA POR ATRIBUTOS****** \n");
     
     if(populacao1 > populacao2){
-        printf("Carta 1 venceu com a população de: %lu habitantes \n", populacao1);
+        printf("Carta 1:  venceu com a população de: %lu habitantes \n", populacao1);
     }else{
         if(populacao1 == populacao2){
             printf("Carta 1 empatou com a Carta 2 com a população de: %lu habitantes \n", populacao1);

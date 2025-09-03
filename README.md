@@ -28,6 +28,13 @@ No nível Novato, você começará implementando a lógica básica de comparaç�
 
 No nível Aventureiro, você expandirá o sistema para incluir a comparação aninhada e a criação de um menu interativo usando `switch`.
 
+### Instruções para Jogar:
+-Insira os dados do País em cada carta solicitado.
+-No Menu principal, escolha qual atributo deseja fazer a disputa.
+-Os atributos para disputa são: População, Área, PIB, Número de pontos turisticos e Densidade Demográfica.
+-Cada atributo tem seu número correspondente no Menu Principal. Ex.: Ao escolher o número 1, ele corresponde ao atributo população, então vence o País que tiver a maior população.
+- Para a Densidade Demográfica, vence o País que tiver a menor Densidade Demográfica.
+
 ### 🆕 Diferença em relação ao Nível Novato:
 - **Menu Interativo:** O usuário poderá escolher diferentes atributos para comparação através de um menu.
 - **Comparação Aninhada:** Implementação de lógica de comparação mais complexa, utilizando estruturas aninhadas para tomar decisões baseadas em múltiplos atributos.
@@ -37,7 +44,7 @@ No nível Aventureiro, você expandirá o sistema para incluir a comparação an
 - **Menu Interativo:** Uso de `switch` para criar um menu que permite ao jogador escolher os atributos a serem comparados.
 - **Exibição de Resultados:** O sistema exibirá o resultado da comparação, indicando qual carta venceu e qual atributo foi utilizado.
 
----
+
 
 ## 🏅 Nível Mestre
 

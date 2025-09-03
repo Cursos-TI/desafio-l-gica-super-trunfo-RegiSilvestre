@@ -23,7 +23,7 @@ int main() {
     printf("→ População (habitantes): ");
     scanf("%d", &populacao1);
 
-    printf("→ Área (em metros quadrados): ");
+    printf("→ Área (em quilometros quadrados): ");
     scanf("%f", &aream21);
 
     printf("→ PIB (em bilhões de reais): ");
@@ -32,7 +32,8 @@ int main() {
     printf("→ Número de pontos turísticos: ");
     scanf("%d", &numpt1);
 
-    densPop1 = populacao1 / aream21;
+    //Conversão explícita da variável populacao1 para float
+    densPop1 = (float) populacao1 / aream21;
 
     // ========== Cadastro País 2 ==========
     printf("\n================== PAÍS 2 ==================\n");
@@ -45,7 +46,7 @@ int main() {
     printf("→ População (habitantes): ");
     scanf("%d", &populacao2);
 
-    printf("→ Área (em metros quadrados): ");
+    printf("→ Área (em quilometros quadrados): ");
     scanf("%f", &aream22);
 
     printf("→ PIB (em bilhões de reais): ");
@@ -54,7 +55,8 @@ int main() {
     printf("→ Número de pontos turísticos: ");
     scanf("%d", &numpt2);
 
-    densPop2 = populacao2 / aream22;
+    //Conversão explícita da variável populacao2 para float
+    densPop2 = (float) populacao2 / aream22;
 
     // ========== Menu de Atributos ==========
     printf("\n================== MENU PRINCIPAL ==================\n");
@@ -84,8 +86,8 @@ int main() {
 
         case 2:
             printf("🏁 Atributo: Área\n");
-            printf("- %s: %.2f m²\n", nomepais1, aream21);
-            printf("- %s: %.2f m²\n", nomepais2, aream22);
+            printf("- %s: %.2f Km²\n", nomepais1, aream21);
+            printf("- %s: %.2f Km²\n", nomepais2, aream22);
             if (aream21 > aream22)
                 printf("✅ Resultado: %s venceu!\n", nomepais1);
             else if (aream21 < aream22)
@@ -96,8 +98,8 @@ int main() {
 
         case 3:
             printf("🏁 Atributo: PIB\n");
-            printf("- %s: %.2f bilhões\n", nomepais1, pib1);
-            printf("- %s: %.2f bilhões\n", nomepais2, pib2);
+            printf("- %s: %.2f bilhões de reais\n", nomepais1, pib1);
+            printf("- %s: %.2f bilhões de reais\n", nomepais2, pib2);
             if (pib1 > pib2)
                 printf("✅ Resultado: %s venceu!\n", nomepais1);
             else if (pib1 < pib2)
@@ -120,8 +122,8 @@ int main() {
 
         case 5:
             printf("🏁 Atributo: Densidade Demográfica\n");
-            printf("- %s: %.4f Hab/m²\n", nomepais1, densPop1);
-            printf("- %s: %.4f Hab/m²\n", nomepais2, densPop2);
+            printf("- %s: %.2f Hab/Km²\n", nomepais1, densPop1);
+            printf("- %s: %.2f Hab/Km²\n", nomepais2, densPop2);
             if (densPop1 > densPop2)
                 printf("✅ Resultado: %s venceu!\n", nomepais1);
             else if (densPop1 < densPop2)
@@ -131,7 +133,7 @@ int main() {
             break;
 
         default:
-            printf("❌ Opção inválida. Tente novamente.\n");
+            printf("❌ Opção inválida! Tente novamente.\n");
             break;
     }
 

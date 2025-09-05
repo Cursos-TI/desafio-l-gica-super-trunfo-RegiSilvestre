@@ -124,9 +124,9 @@ int main() {
             printf("🏁 Atributo: Densidade Demográfica\n");
             printf("- %s: %.2f Hab/Km²\n", nomepais1, densPop1);
             printf("- %s: %.2f Hab/Km²\n", nomepais2, densPop2);
-            if (densPop1 > densPop2)
+            if (densPop1 < densPop2)
                 printf("✅ Resultado: %s venceu!\n", nomepais1);
-            else if (densPop1 < densPop2)
+            else if (densPop1 > densPop2)
                 printf("✅ Resultado: %s venceu!\n", nomepais2);
             else
                 printf("🤝 Resultado: Empate entre %s e %s!\n", nomepais1, nomepais2);

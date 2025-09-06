@@ -50,6 +50,15 @@ No nível Aventureiro, você expandirá o sistema para incluir a comparação an
 
 No nível Mestre, o desafio se intensifica com a adição de funcionalidades avançadas, como menus dinâmicos e lógica de decisão complexa com operadores ternários.
 
+### Instruções para Jogar:
+-Insira os dados do País em cada carta solicitado.
+-No primeiro Menu principal, escolha o primeiro atributo que deseja fazer a disputa.
+-No segundo Menu principal, escolha o segundo atributo que deseja fazer a disputa. 
+-Os atributos para disputa são: População, Área, PIB, Número de pontos turisticos e Densidade Demográfica.
+-Cada atributo tem seu número correspondente no Menu Principal. Ex.: Ao escolher o número 1, ele corresponde ao atributo população, então vence o País que tiver a maior população.
+-Para a Densidade Demográfica, vence o País que tiver a menor Densidade Demográfica.
+-A cada tributo escolhido, o tributo do país vencedor recebe 1 ponto. No final vence o país que tiver mais pontos.
+
 ### 🆕 Diferença em relação ao Nível Aventureiro:
 - **Escolha de Dois Atributos:** O usuário poderá escolher dois atributos para comparação entre as cartas.
 - **Lógica de Decisão Complexa:** Implementação de estruturas de decisão aninhadas e encadeadas, além do uso de operadores ternários para determinar a carta vencedora.
